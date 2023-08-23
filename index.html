@@ -1,0 +1,77 @@
+<!doctype html>
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en"> 
+
+<head>
+  <meta charset="utf-8">
+  <title>Tabs</title>
+  <!-- View-port Basics: http://mzl.la/VYREaP -->
+  <!-- This meta tag is used for mobile device to display the page without any zooming,
+       so how much the device is able to fit on the screen is what's shown initially. 
+       Remove comments from this tag, when you want to apply media queries to the website. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <!--font-awesome link for icons-->
+  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
+  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+</head>
+
+<body>
+  <!--container start-->
+  <div class="container">
+    <!--header section start-->
+    <header class="header">
+      <h1 class="heading">Tabs</h1>
+    </header>
+    <!--header section end-->
+    <!--main section start-->
+    <main>
+      <div class="wrapper">
+        <div class="tab-container">
+          <ul class="tab-nav">
+            <li class="tab tab-active"><a href="#FIXME" target="_self" title="London">London</a></li>
+            <li class="tab"><a href="#FIXME" target="_self" title="Paris">Paris</a></li>
+            <li class="tab"><a href="#FIXME" target="_self" title="Tokyo">Tokyo</a></li>
+          </ul>
+          <ul class="tab-content">
+            <li class="content content-active">
+              <figure>
+                <img src="https://dummyimage.com/230x236/000/fff&text=London" alt="london">
+                <figcaption>
+                  <h2 class="tab-heading">London</h2>
+                  <p class="tab-info">London is capital city of England.</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="content">
+              <figure>
+                <img src="https://dummyimage.com/230x236/000/fff&text=Paris" alt="paris">
+                <figcaption>
+                  <h2 class="tab-heading">Paris</h2>
+                  <p class="tab-info">Paris is capital city of France.</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="content">
+              <figure>
+                <img src="https://dummyimage.com/230x236/000/fff&text=Tokyo" alt="tokyo">
+                <figcaption>
+                  <h2 class="tab-heading">Tokyo</h2>
+                  <p class="tab-info">Tokyo is capital city of France.</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!--main section end-->
+
+  </div>
+  <!--container end-->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
